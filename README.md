@@ -94,7 +94,7 @@ Aktivieren von Licht-Animationen und veränderbare Parameter:
 
 - Die Note B0 aktiviert eine Animation, bei welcher beide Streifen blau leuchten. Die Helligkeit pulsiert in einer Sinus-Welle.
 
-- Mit dem ersten Drehgeber von links lässt sich der "Velocity"-Parameter verändern. Dieser wird effektiv, sobald eine neue Note aktiviert wird. Die Geschwindigkeit der Animationen startet von 4 bars (= 4 x 4 x 1/4 Noten, Velocity <= 5) in 8 Schritten von Faktor 2 bis hin zu 1/32 Noten (Velocity > 110).
+- Mit dem ersten Drehgeber von links lässt sich der "Velocity"-Parameter verändern. Dieser wird effektiv, sobald eine neue Note aktiviert wird. Die Geschwindigkeit der Animationen startet von 4 bars (= 4 x 4 x 1/4 Noten, Velocity <= 5) in 8 Schritten von jeweils doppelter Geschwindigkeit bis hin zu 1/32 Noten (Velocity > 110).
 
 - Mit dem dritten Rotationsgeber von links lässt sich der Helligkeitsparameter verändern.
     
