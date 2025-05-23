@@ -46,7 +46,9 @@ Eine genauere Erklärung vom Hardware-Aufbau ist nicht Teil von diesem Projekt. 
 
 LED Ansteuerung:
 
-Benutzt den FastLED libray branch "always-objectfled" (https://github.com/FastLED/FastLED/tree/always-objectfled) und die ObjectFLED library (https://github.com/KurtMF/ObjectFLED). Wichtig: die FastLED-library darf nicht automatisch aktualisiert werden in der Arduino IDE!
+Benutzt den FastLED libray branch "always-objectfled" (https://github.com/FastLED/FastLED/tree/always-objectfled) und die ObjectFLED library (https://github.com/KurtMF/ObjectFLED).
+
+Wichtig: die FastLED-library darf nicht automatisch aktualisiert werden in der Arduino IDE!
 
 ___________________________________________________________________________________________________________________________________________________
 MIDI-Datenverarbeitung:
