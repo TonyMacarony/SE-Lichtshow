@@ -102,9 +102,14 @@ Aktivieren von Licht-Animationen und veränderbare Parameter:
 
 Das Testing wird im angehängten Video "??.mp4" durchgeführt.
 
-Test 1:  Einlesen von MIDI-Parametern - dies wird demonstriert mit dem Serial-Monitor.
+Test 1 / Ziel 1:  Einlesen von MIDI-Parametern - dies wird demonstriert mit dem Serial-Monitor. Der Test war erfolgreich, verschiedene Noten werden erkannt.
 
-Test 2: 
-  
-  
+Test 2 / Ziel 2:  Schnelles Drücken und Loslassen einer Note um die Aktivierung von beiden Animationen zu prüfen. Der Test war erfoglreich, zwei verschiedene Animationen konnten ausgelöst werden und die gestartete Animation stoppt nach Loslassen einer Note.
 
+Test 3 / Ziel 3:  Während eine Note gehalten wird, wird der dritte Drehgeber verstellt um die Helligkeit der laufenden Animation zu verändern. Der Test war erfolgreich, die Helligkeit der jeweilig aktivierten Animation liess sich kontinuierlich verändern.
+
+Test 4 / Ziel 4:  
+
+Test 5 / Ziel 5:  
+
+Ziel 6 konnte nicht geprüft werden, da diese Funkktionalität (Wunsch-Ziel) nicht implementiert wurde.
