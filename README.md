@@ -104,7 +104,7 @@ Aktivieren von Licht-Animationen und veränderbare Parameter:
     
 # Testing
 
-Das Testing wird im angehängten Video "??.mp4" durchgeführt.
+Das Testing wird im Video auf Youtube durchgeführt: https://www.youtube.com/watch?v=Drnbrlii0Zk
 
 Test 1 / Ziel 1:  Einlesen von MIDI-Parametern - dies wird demonstriert mit dem Serial-Monitor.
 
@@ -127,7 +127,7 @@ Der Test war erfolgreich, die Geschwindigkeit der Animationen lässt sich für j
 ___________________________________________________________________________________________________________________________________________________
 Test 5 / Ziel 5:  Der MIDI-Kanal auf dem Sequenzer wird gewechselt, um den zweiten Mikrocontroller und somit den zweiten Satz LED-Streifen (rechts) zu aktivieren.
 
-Der Test war erfolgreich, die Signalübertragung läuft auf zwei verschiedenen Kanälen, d.h. zwei verschiedenen Mikrocontrollern.
+Der Test war bedingt erfolgreich, die Signalübertragung läuft auf zwei verschiedenen Kanälen, d.h. zwei verschiedenen Mikrocontrollern. Eine Hardware-Anpassung am einen Mikrocontroller ist nötig, so dass eine vom USB-Anschluss unabhängige Stromspeisung möglich ist.
 
 ___________________________________________________________________________________________________________________________________________________
 Ziel 6 konnte nicht geprüft werden, da diese Funkktionalität (Wunsch-Ziel) nicht implementiert wurde.
