@@ -48,10 +48,12 @@ LED Ansteuerung:
 
 Benutzt den FastLED libray branch "always-objectfled" (https://github.com/FastLED/FastLED/tree/always-objectfled) und die ObjectFLED library (https://github.com/KurtMF/ObjectFLED). Wichtig: die FastLED-library darf nicht automatisch aktualisiert werden in der Arduino IDE!
 
+___________________________________________________________________________________________________________________________________________________
 MIDI-Datenverarbeitung:
   
 Die Arduino-MIDI-library wird für das Einlesen von MIDI-Daten über den seriellen Datenpin #16 (RX4) vom Teensy 4.0 verwendet.
 
+___________________________________________________________________________________________________________________________________________________
 MIDI-Signalübertragung:
 
 Wird realisiert mit der Verwendung von WIDI-Geräten von CME (WIDI Jack als MASTER = Sender und 2x WIDI Core als SLAVE = Empfänger).
@@ -69,8 +71,7 @@ Aufsetzen der Hardware und Bluetooth-Verbindungen:
 Der Oxi One Sequenzer wird so aufgesetzt, dass auf MIDI Kanälen 1 und 2 ein MONO-Keyboard aktiv ist mit Tonleiter "A Moll". Der WIDI Jack wird in der WIDI-App als MASTER definiert und die beiden WIDI Core's werden als SLAVE definiert.
     
 Wichtig: Bluetooth am Smartphone nach der Konfiguration abschalten, damit die Signalübertragung funktioniert!
-
-
+___________________________________________________________________________________________________________________________________________________
 Aufsetzen der Software und Parametrierung:
 
 Die beiden externen libraries werden als ZIP-File in die Arduino-IDE importiert, siehe "FastLED.zip" und "ObjectFLED-main.zip".
@@ -88,8 +89,7 @@ Der Code ist anhand von "//"-Markierungen faltbar für eine bessere Übersichtic
 - "channel_config" (line 221) definiert den MIDI-Kanal, der eingelesen wird.
 
 - "bpm" (line 222) definiert die "beats per minute", d.h. die Takte pro Minute als Grund-Tempo der Animationen.
-
-
+___________________________________________________________________________________________________________________________________________________
 Aktivieren von Licht-Animationen und veränderbare Parameter:
 
 - Die Note A0 aktiviert eine Animation, bei welcher sich eine Blau-Grüne Lichtwelle von einem Ende der LED-Streifen zum anderen hin- und herbewegt, solange die Note gehalten wird.
@@ -105,13 +105,17 @@ Aktivieren von Licht-Animationen und veränderbare Parameter:
 Das Testing wird im angehängten Video "??.mp4" durchgeführt.
 
 Test 1 / Ziel 1:  Einlesen von MIDI-Parametern - dies wird demonstriert mit dem Serial-Monitor. Der Test war erfolgreich, verschiedene Noten werden erkannt.
-
+___________________________________________________________________________________________________________________________________________________
 Test 2 / Ziel 2:  Schnelles Drücken und Loslassen einer Note um die Aktivierung von beiden Animationen zu prüfen. Der Test war erfoglreich, zwei verschiedene Animationen konnten ausgelöst werden und die gestartete Animation stoppt nach Loslassen einer Note.
 
+___________________________________________________________________________________________________________________________________________________
 Test 3 / Ziel 3:  Während eine Note gehalten wird, wird der dritte Drehgeber verstellt um die Helligkeit der laufenden Animation zu verändern. Der Test war erfolgreich, die Helligkeit der jeweilig aktivierten Animation liess sich kontinuierlich verändern.
 
+___________________________________________________________________________________________________________________________________________________
 Test 4 / Ziel 4:  
 
+___________________________________________________________________________________________________________________________________________________
 Test 5 / Ziel 5:  
 
+___________________________________________________________________________________________________________________________________________________
 Ziel 6 konnte nicht geprüft werden, da diese Funkktionalität (Wunsch-Ziel) nicht implementiert wurde.
