@@ -22,14 +22,22 @@ Wunsch-Ziele:
 
 # Verwendete Hardware
 
-1x Oxi One MIDI-Sequenzer (OXI Instruments) für die Generierung von MIDI-Signalen 
+1x Oxi One MIDI-Sequenzer (OXI Instruments) für die Generierung von MIDI-Signalen
+
 2x WIDI Core drahtloser MIDI Sender/Empfänger (CME), am seriellen Input RX4 vom Mikrocontroller
+
 1x WIDI Jack drahtloser MIDI Sender/Empfänger (CME), am MIDI-Out vom Sequenzer angeschlossen 
+
 4x 0.5m WS2812B LED Streifen als Lichtquellen (60 LEDs/m, BTF Lighting)
+
 1x Power adapter all, A12V16.5A schaltender Spannungsregler (BTF Lighting), als 12V Spannungsquelle 
+
 1x DFR0753 Buck-Converter 5V 8A (DFRobot), für Konvertierung von 12V zu 5V, womit die LED-Streifen gespiesen werden 
+
 2x LM309H linearer Spannungsregler 5V 1A (Texas Instruments), für Spannungs-Glättung der 5V Buck-Converter-Spannung für die Speisung der Mikrocontroller 
+
 2x SN74AHCT125 Logik-Level-Shifter (Texas Instruments), für Spannungs-Shift der Logik-Signale von 3.3V zu 5V für die Ansteuerung der LED-Streifen mit den Mikrocontrollern 
+
 2x Teensy 4.0 Mikrocontroller (PJRC), um den seriellen Input von einem WIDI Core zu lesen und Logik-Signale für die LED-Ansteuerung zu generieren.
   
 Eine genauere Erklärung vom Hardware-Aufbau ist nicht Teil von diesem Projekt. Kann per Nachricht angefragt werden.
