@@ -70,6 +70,7 @@ Der Oxi One Sequenzer wird so aufgesetzt, dass auf MIDI Kanälen 1 und 2 ein MON
     
 Wichtig: Bluetooth am Smartphone nach der Konfiguration abschalten, damit die Signalübertragung funktioniert!
 
+
 Aufsetzen der Software und Parametrierung:
 
 Die beiden externen libraries werden als ZIP-File in die Arduino-IDE importiert, siehe "FastLED.zip" und "ObjectFLED-main.zip".
@@ -87,6 +88,7 @@ Der Code ist anhand von "//"-Markierungen faltbar für eine bessere Übersichtic
 - "channel_config" (line 221) definiert den MIDI-Kanal, der eingelesen wird.
 
 - "bpm" (line 222) definiert die "beats per minute", d.h. die Takte pro Minute als Grund-Tempo der Animationen.
+
 
 Aktivieren von Licht-Animationen und veränderbare Parameter:
 
