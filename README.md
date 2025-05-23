@@ -42,7 +42,7 @@ Wunsch-Ziele:
   
 Eine genauere Erklärung vom Hardware-Aufbau ist nicht Teil von diesem Projekt. Kann per Nachricht angefragt werden.
 
-# Benutzte Software-Bibliotheken ("library")
+# Benutzte Software-Bibliotheken
 
 LED Ansteuerung:
 
