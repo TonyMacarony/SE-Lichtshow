@@ -61,8 +61,9 @@ MIDI-Signalübertragung:
 Wird realisiert mit der Verwendung von WIDI-Geräten von CME (WIDI Jack als MASTER = Sender und 2x WIDI Core als SLAVE = Empfänger).
 Die Verbindung kann mit der "WIDI App" aufgesetzt werden (verfügbar für Android & iOs).
 
-# Flussdiagramm und Beschreibung vom Ablauf
+# Flussdiagramm
 
+![alt text](https://github.com/TonyMacarony/SE-Lichtshow/blob/main/Ablaufdiagramm%20SE-Lichtshow.png)
     
   
 
